@@ -1,0 +1,468 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body {
+    display: flex;
+}
+
+main {
+    background-color: rgb(223, 223, 223);
+    width: 100vw;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+
+}
+
+/* Navbar css  */
+nav h1 {
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav h3 {
+    font-size: 15px;
+    margin: 20px 20px;
+    color: gray;
+}
+
+.nav-img {
+    margin: 20px 20px;
+    width: 150px;
+    border-radius: 5px;
+}
+.navbutton img {
+    margin: 10px;
+}
+
+.navbutton div a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.navbutton div a:hover {
+   background-color: #cdcdcd;
+}
+
+.navbutton a {
+   text-decoration: none;
+   color: #000;
+   font-weight: 400;
+}
+
+
+/* PORTFOLIO Section  */
+
+.PORTFOLIO {
+    padding: 30px;
+}
+
+.PORTFOLIO h1 {
+    font-size: 50px;
+}
+
+.PORTFOLIO-FILTER {
+    display: flex;
+    text-align: center;
+}
+
+.blackbox {
+    color: white;
+    margin: 0px 10px;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.PORTFOLIO-FILTER .Filter {
+    border: none;
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+.PORTFOLIO-FILTER .box {
+    margin: 0px 10px;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.box:hover,
+.blackbox:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.border {
+    margin: 15px 0;
+    border: 5px solid rgb(187, 187, 187);
+}
+
+/* image-cards Section  */
+.image-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.img-card h1 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.img-card p {
+    font-size: 17px;
+}
+
+.img-card img {
+    width: 320px;
+    opacity: 0.8;
+}
+
+.img-card img:hover {
+    opacity: 1;
+}
+
+.img-card-text {
+    background-color: white;
+    width: 320px;
+    padding: 5px;
+}
+
+.img-card {
+    box-sizing: border-box;
+    margin: 0px 10px;
+    /* border: 1px solid #000; */
+}
+
+/* next-button Section  */
+.next-button {
+    display: flex;
+    justify-content: center;
+}
+
+.next-button-box:nth-child(2) {
+    background-color: black;
+    color: #fff;
+}
+
+.next-button-box:nth-child(2) a {
+    background-color: black;
+    color: #fff;
+}
+
+.next-button-box {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.next-button-box a {
+    color: black;
+    text-decoration: none;
+}
+
+.next-button-box:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+/* About Section  */
+.About {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.About img {
+    width: 500px;
+}
+
+.About2 {
+    padding: 0 32px;
+}
+
+.About2 h1 {
+    font-size: 50px;
+}
+
+.About2 p {
+    font-size: 20px;
+    padding: 30px 0;
+    border-bottom: 0.5px solid #a1a1a1;
+}
+
+/* Skills SECtion  */
+.Skills {
+    padding: 10px 32px;
+}
+
+.Skills h1 {
+    font-size: 30px;
+}
+
+.Skills h2 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.box95 {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.box95 div {
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    width: 95%;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.box85 {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.box85 div {
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    width: 85%;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.box70 {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.box70 div {
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    width: 70%;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.box30 {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.box30 div {
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    width: 30%;
+    font-size: 30px;
+    padding: 1px;
+}
+
+.Skills button {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    text-align: left;
+    margin-top: 40px;
+    background-color: rgb(187, 187, 187);
+    border: 1px solid #000;
+}
+
+.Skills h2 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    font-weight: 400;
+}
+
+/* Card section */
+.Packages-cards {
+    padding: 10px 32px;
+}
+
+.Packages-cards h1 {
+    font-size: 30px;
+}
+
+.Packages-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.Packages-card-box {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px 70px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Packages-card-box2 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px 70px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Packages-card-box3 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px 70px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.Packages-card-box:nth-child(1) {
+    border: 2px solid black;
+    background-color: rgb(245, 245, 245);
+}
+
+.Packages-card-box2:nth-child(1) {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+.Packages-card-box3:nth-child(1) {
+    border: 2px solid black;
+    background-color: rgb(245, 245, 245);
+}
+
+.Packages-card-box button {
+    padding: 5px 15px;
+    /* background-color: rgb(251, 255, 0); */
+}
+
+.Packages-card-box2 button {
+    padding: 5px 15px;
+    /* background-color: rgb(29, 212, 44); */
+}
+
+.Packages-card-box3 button {
+    padding: 5px 15px;
+    /* background-color: rgb(44, 111, 255); */
+}
+/* contact-us section */
+.Contact {
+    padding: 10px 32px;
+    background-color: #a1a1a1;
+}
+
+.Contact h1 {
+    font-size: 30px;
+}
+.contactboxes{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.contactbox{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+    padding: 30px 110px;
+}
+.contactbox:nth-child(2){
+   background-color: #c8c8c8;
+}
+.contact-form{
+  margin-top: 20px;
+}
+.contact-form h2{
+  font-weight: 100;
+}
+.contact-form input,textarea{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px 5px;
+}
+.contact-form button{
+  width: 100%;
+  background-color: #000;
+  color:white;
+  border: 2px solid white;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 5px 5px;
+}
+.contact-form button:hover{
+  cursor: pointer;
+  background-color: #a1a1a1;
+  border: 2px solid black;
+}
+/* Footer */
+footer{
+    padding: 60px 32px 10px 32px;
+    color: white;
+    background-color: #656565;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+   margin: 20px 0px;
+}
+.footer b{
+   text-decoration: underline;
+}
+.border-black{
+    border-bottom: 1px solid black;
+}
+.blog{
+    display: flex;
+    padding: 10px;  
+    justify-content: center;
+    align-items: center;
+}
+.blog:hover{
+    background-color: #a1a1a1;
+}
+.blog img{
+    margin: 10px; 
+    text-align: center; 
+}
+.tags p{
+    background-color: rgb(168, 168, 168);
+    display: inline-block;
+    margin: 5px;
+    padding-top: 40px;
+    padding: 5px;
+}
+.TAGS h1{
+    padding-bottom: 30px;
+}
+.tags .bgblack{
+    background-color: #000;
+}
+/* Last Footer */
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color:#fff;  
+}
+.footer2 b{
+   text-decoration: underline;
+}
